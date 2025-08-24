@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Natureza.css">
+    <link rel="stylesheet" href="matemática1.css">
+    <link rel="icon" href="imagens/giphy.gif">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Natureza</title>
+</head>
+<body>
+    
+    <div class="barra-superior">
+        <nav>
+            <h2 class="Titulo-portfolio">Portfólio</h2>
+            <ul class="Separacao-botoes">
+                <li>
+                    <div class="Home">
+                        <button class="btnTelaPrincipal nav-button" id="BoteosAcima">Início</button>  
+                    </div>
+                </li>
+                <li>
+                    <div class="Materias">
+                        <button class="btnMaterias nav-button" id="BoteosAcima">Matérias</button>
+                        <ul class="lista-materias">
+                           <li id="HumanasBotao">Humanas</li>
+                            <li id="LinguagensBotao">Linguagens</li>
+                            <li id="MatematicaBotao">Matemática</li>
+                            <li id="NaturezaBotao">Natureza</li>
+                            <li id="IotBotao">Curso Técnico</li>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                   
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+<div class="atividades">
+  <div class="card">
+    <img class="ImagensDaAtividade" src="imagens/Trabalho de Mtm.png" alt="Natureza">
+    <div class="info-borda">
+      <span class="data">ESTATÍSTICA</span>
+      <button onclick="abrirModal(1)">Ver mais</button>
+    </div>
+  </div>
+
+  <div class="card">
+    <img class="ImagensDaAtividade" src="imagens/passe.png" alt="Natureza">
+    <div class="info-borda">
+      <span class="data">PASSE</span>
+      <button onclick="abrirModal(2)">Ver mais</button>
+    </div>
+  </div>
+
+ 
+
+<!-- Modais -->
+<div id="modal1" class="modal">
+  <div class="modal-content">
+    <span class="fechar" onclick="fecharModal(1)">&times;</span>
+    <div class="modal-body">
+      <div class="modal-video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/4S5iuOI6CWc?si=ukBcFBkKtVx5lVrG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>   </div>
+      <div class="modal-texto">
+        <h2>ESTATÍSTICA</h2>
+        <p>Objetivo do projeto
+            Em grupos de 3 ou 4 alunos, vocês irão planejar e executar uma pesquisa simples para responder a uma pergunta prática por meio da coleta e análise de dados. O objetivo é aprender a usar ferramentas digitais (Google Forms e Google Planilhas) para organizar informação, calcular medidas estatísticas básicas (média, mediana, moda e amplitude) e interpretar os resultados com gráficos e argumentos claros.</p>
+        <ul>
+          
+        </ul>
+        <span class="modal-data">23 de junho de 2025</span>
+        <div class="modal-botoes">
+          <a href="https://www.canva.com/design/DAGsJneVFXg/Lu9eu49wNlvm5J6ncAbLvw/view?utm_content=DAGsJneVFXg&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h5226a29521" target="_blank">Acessar projeto</a>
+          <a href="#">H 27, H 28, H 29</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="modal2" class="modal">
+  <div class="modal-content">
+    <span class="fechar" onclick="fecharModal(2)">&times;</span>
+    <div class="modal-body">
+      <div class="modal-video"></div>
+      <div class="modal-texto">
+        <h2>PASSE</h2>
+        <p>Avaliação para testar nossas habilidades <p>
+        <span class="modal-data">17 de Abril de 2025</span>
+        <div class="modal-botoes">
+          <a href="https://exams-sesi-avaliacao-2022.didatti.net.br/login" target="_blank">Acessar projeto</a>
+          <a href="#">C5, H30, H31</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>

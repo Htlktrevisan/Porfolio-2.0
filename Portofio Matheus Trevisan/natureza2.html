@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Natureza.css">
+    <link rel="stylesheet" href="natureza2.css">
+    <link rel="icon" href="imagens/giphy.gif">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Natureza</title>
+</head>
+<body>
+    
+    <div class="barra-superior">
+        <nav>
+            <h2 class="Titulo-portfolio">Portfólio</h2>
+            <ul class="Separacao-botoes">
+                <li>
+                    <div class="Home">
+                        <button class="btnTelaPrincipal nav-button" id="BoteosAcima">Início</button>  
+                    </div>
+                </li>
+                <li>
+                    <div class="Materias">
+                        <button class="btnMaterias nav-button" id="BoteosAcima">Matérias</button>
+                        <ul class="lista-materias">
+                           <li id="HumanasBotao">Humanas</li>
+                            <li id="LinguagensBotao">Linguagens</li>
+                            <li id="MatematicaBotao">Matemática</li>
+                            <li id="NaturezaBotao">Natureza</li>
+                            <li id="IotBotao">Curso Técnico</li>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                  
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+ <div class="atividades">
+  <div class="card">
+    <img class="ImagensDaAtividade" src="../Imagens/Imunização.png" alt="Natureza">
+    <div class="info-borda">
+      <span class="data">SISTEMA IMUNOLÓGICO E VACINAS</span>
+      <button onclick="abrirModal(1)">Ver mais</button>
+    </div>
+  </div>
+
+  <div class="card">
+    <img class="ImagensDaAtividade" src="../Imagens/eletroquimica.png" alt="Natureza">
+    <div class="info-borda">
+      <span class="data">Eletroquímica </span>
+      <button onclick="abrirModal(2)">Ver mais</button>
+    </div>
+  </div>
+
+  <div class="card">
+    <img class="ImagensDaAtividade" src="../Imagens/Linha do tempo.png" alt="Natureza">
+    <div class="info-borda">
+      <span class="data">Introdução ao Eletromagnetismo</span>
+      <button onclick="abrirModal(3)">Ver mais</button>
+    </div>
+  </div>
+</div>
+
+<!-- Modais -->
+<div id="modal1" class="modal">
+  <div class="modal-content">
+    <span class="fechar" onclick="fecharModal(1)">&times;</span>
+    <div class="modal-body">
+      <div class="modal-video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/co6guj_OKok?si=oFDSkNOjihirjfN5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>     </div>
+      <div class="modal-texto">
+        <h2>SISTEMA IMUNOLÓGICO E VACINAS</h2>
+        <p>Na aula desta semana, estudamos o funcionamento do sistema imunológico humano, compreendendo seus principais componentes e mecanismos de defesa contra agentes infecciosos. Exploramos os dois tipos de imunidade – inata e adaptativa – e entendemos como o corpo reconhece, combate e cria memória contra invasores como vírus e bactérias. Também diferenciamos a imunização ativa (vacinas) da passiva (soros), destacando suas aplicações, tempo de ação e eficácia.</p>
+        <ul>
+          
+        </ul>
+        <span class="modal-data">26 de junho de 2025</span>
+        <div class="modal-botoes">
+          <a href="https://www.canva.com/design/DAGrd0-sIPQ/2cz3KgISmPqScjb01ZoTXw/view?utm_content=DAGrd0-sIPQ&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h6c402327bd" target="_blank">Acessar projeto</a>
+          <a href="#">C4 - H23</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="modal2" class="modal">
+  <div class="modal-content">
+    <span class="fechar" onclick="fecharModal(2)">&times;</span>
+    <div class="modal-body">
+      <div class="modal-video">
+        <iframe width="560" height="315" src="https://youtube.com/shorts/3Wj9Bsc1yGw?si=gy-oG_KGcx5N0hMK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>      </div>
+      <div class="modal-texto">
+        <h2>Eletroquímica </h2>
+        <p>Promover aprendizagem ativa, interdisciplinar e integrada entre Física e Química por meio da criação de um glossário técnico ilustrado e matemático com os principais conceitos de eletroquímica e eletricidade, destacando definições, aplicações cotidianas, fórmulas relevantes e ilustrações explicativas.</p>
+        <span class="modal-data">30 de junho de 2025</span>
+        <div class="modal-botoes">
+          <a href="https://www.canva.com/design/DAGsAsmklIA/po-zL6cVc_BbAn7tg2jRYQ/view?utm_content=DAGsAsmklIA&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h5c22d8d136" target="_blank">Acessar projeto</a>
+          <a href="#">C2  H6 , H7  e H9 .</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="modal3" class="modal">
+  <div class="modal-content">
+    <span class="fechar" onclick="fecharModal(3)">&times;</span>
+    <div class="modal-body">
+      <div class="modal-video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/sqYV5xciu3A?si=mmx2DJkRLUzEko9R" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>   </div>
+      <div class="modal-texto">
+        <h2>Introdução ao Eletromagnetismo</h2>
+        <p>Nesta semana estudaremos eletromagnetismo e seus principais fenômenos, com foco no comportamento dos ímãs e suas características gerais. Essa sequência atende à Competência 06, Habilidade 36. A aula está organizada em quatro momentos. No Momento 1 faremos a acolhida e a chamada, alinhando os objetivos do encontro. No Momento 2 apresentaremos os conceitos essenciais: polos magnéticos, linhas de campo, materiais ferromagnéticos, paramagnéticos e diamagnéticos, solenoide, regra da mão direita e noções de indução eletromagnética; lembrem-se de registrar no caderno tudo o que for solicitado, pois a professora fará o visto</p>
+        <span class="modal-data">15 de julho de 2025</span>
+        <div class="modal-botoes">
+          <a href="https://www.canva.com/design/DAGeuiTflPs/Uh62iKGISMrd6hRgzq-IYw/view?utm_content=DAGeuiTflPs&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hf95d2bb258" target="_blank">Acessar projeto</a>
+          <a href="#">C1 - H1, H2 e H4</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<script src="script.js"></script>

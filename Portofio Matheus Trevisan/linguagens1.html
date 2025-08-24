@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="linguagens1.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="imagens/giphy.gif">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Linguagens</title>
+</head>
+<body>
+     
+    <div class="barra-superior">
+        <nav>
+            <h2 class="Titulo-portfolio">Portfólio</h2>
+            <ul class="Separacao-botoes">
+                <li>
+                    <div class="Home">
+                        <button class="btnTelaPrincipal nav-button" id="BoteosAcima">Início</button>  
+                    </div>
+                </li>
+                <li>
+                    <div class="Materias">
+                        <button class="btnMaterias nav-button" id="BoteosAcima">Matérias</button>
+                        <ul class="lista-materias">
+                           <li id="HumanasBotao">Humanas</li>
+                            <li id="LinguagensBotao">Linguagens</li>
+                            <li id="MatematicaBotao">Matemática</li>
+                            <li id="NaturezaBotao">Natureza</li>
+                            <li id="IotBotao">Curso Técnico</li>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                   
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="atividades">
+  <div class="card">
+    <img class="ImagensDaAtividade" src="../Imagens/Revista.png" alt="Natureza">
+    <div class="info-borda">
+      <span class="data">Revista Literária</span>
+      <button onclick="abrirModal(1)">Ver mais</button>
+    </div>
+  </div>
+
+  <div class="card">
+    <img class="ImagensDaAtividade" src="../Imagens/udesc_biblioteca_central_foto_gustavo_cabral_vaz_ascom_udesc.jpg" alt="Natureza">
+    <div class="info-borda">
+      <span class="data">UFSC 2026</span>
+      <button onclick="abrirModal(2)">Ver mais</button>
+    </div>
+  </div>
+
+  <div class="card">
+    <img class="ImagensDaAtividade" src="../Imagens/hq720.jpg" alt="Natureza">
+    <div class="info-borda">
+      <span class="data">Pai contra mãe</span>
+      <button onclick="abrirModal(3)">Ver mais</button>
+    </div>
+  </div>
+</div>
+
+<!-- Modais -->
+<div id="modal1" class="modal">
+  <div class="modal-content">
+    <span class="fechar" onclick="fecharModal(1)">&times;</span>
+    <div class="modal-body">
+      <div class="modal-video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/95As_hEx62g?si=7YrAhYYDIx3dhpKx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>      </div>
+      <div class="modal-texto">
+        <h2>Revista Literária</h2>
+        <p>O objetivo da atividade foi reunir, em uma única revista literária, os dois trabalhos realizados durante o primeiro trimestre a partir das obras Memórias Póstumas de Brás Cubas, de Machado de Assis, e Parque Industrial, de Patrícia Galvão (Pagu). A proposta era criar uma capa criativa e significativa, além de organizar os conteúdos de forma clara, visualmente atrativa e coerente, incluindo análises, interpretações e produções relacionadas a cada uma das obras.</p>
+        <span class="modal-data">7 de Abril de 2025</span>
+        <div class="modal-botoes">
+          <a href="https://sites.google.com/estudante.sesisenai.org.br/laboratorio-literario1/p%C3%A1gina-inicial" target="_blank">Acessar projeto</a>
+          <a href="#">H4/H14/H17. </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="modal2" class="modal">
+  <div class="modal-content">
+    <span class="fechar" onclick="fecharModal(2)">&times;</span>
+    <div class="modal-body">
+      <div class="modal-video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/_LqP4QKcjRk?si=q0vrGhxPX9QTZvZ6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>      </div>
+      <div class="modal-texto">
+        <h2>UFSC 2026</h2>
+        <p>Essa atividade foi focada na leitura das obras obrigatórias para o vestibular UFSC 2026. Recebemos uma pasta com cinco das seis obras, sendo que a última será adicionada assim que estiver disponível. A proposta é nos organizarmos ao longo do ano para realizar a leitura de todas elas, respeitando a divisão por trimestres.</p>
+        <span class="modal-data">17 de Abril de 2025</span>
+        <div class="modal-botoes">
+          <a href="https://padlet.com/claudiabechler/leituras-obrigat-rias-ufsc-2026-i3y2t016v48gskg" target="_blank">Acessar projeto</a>
+          <a href="#">H17</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="modal3" class="modal">
+  <div class="modal-content">
+    <span class="fechar" onclick="fecharModal(3)">&times;</span>
+    <div class="modal-body">
+      <div class="modal-video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Rxj96WuSvO0?si=_hYUXPNk0tiVfKul" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>      </div>
+      <div class="modal-texto">
+        <h2>Pai contra mãe</h2>
+        <p>Essa atividade foi dedicada à leitura e análise de um conto de Machado de Assis, com foco especial no título da obra e no contexto histórico do Realismo. A proposta era desenvolver nossa leitura crítica, incentivando a refletir sobre as escolhas do autor, o significado por trás do texto e o momento histórico em que ele foi escrito. Começamos acessando um cartão de atividades, onde estavam as primeiras instruções. Em seguida, fizemos a leitura do conto junto com a professora, utilizando um PDF anexo para acompanhar.</p>
+        <span class="modal-data">10 de fevereiro de 2025</span>
+        <div class="modal-botoes">
+          <a href="https://docs.google.com/document/d/1ScwZY00DirGsoNofswoNmBm0NhxSNdJrE-k8k8TgAzM/edit?tab=t.0" target="_blank">Acessar projeto</a>
+          <a href="#"> H4/H14</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="atividades">
+  <div class="card">
+    <img class="ImagensDaAtividade" src="../Imagens/Minha Biogarfia.png" alt="Natureza">
+    <div class="info-borda">
+      <span class="data">Biografia</span>
+      <button onclick="abrirModal(4)">Ver mais</button>
+    </div>
+  </div>
+
+  <div class="card">
+    <img class="ImagensDaAtividade" src="../Imagens/27142451_317494_GD.jpg" alt="Natureza">
+    <div class="info-borda">
+      <span class="data">Repertório sociocultural </span>
+      <button onclick="abrirModal(5)">Ver mais</button>
+    </div>
+  </div>
+
+  <div class="card">
+    <img class="ImagensDaAtividade" src="../Imagens/google_.png" alt="Natureza">
+    <div class="info-borda">
+      <span class="data">Redação</span>
+      <button onclick="abrirModal(6)">Ver mais</button>
+    </div>
+  </div>
+</div>
+
+<div id="modal4" class="modal">
+  <div class="modal-content">
+    <span class="fechar" onclick="fecharModal(4)">&times;</span>
+    <div class="modal-body">
+      <div class="modal-video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/u1ENvH9CgVw?si=NqR9-VHl6vPcTpgR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>      </div>
+      <div class="modal-texto">
+        <h2>Biografia</h2>
+        <p>Essa atividade teve como foco a revisão da nossa biografia, com atenção especial às regras de pontuação. O objetivo era garantir que o texto estivesse bem escrito, claro e seguindo as normas gramaticais da língua portuguesa. Após revisar o conteúdo, tivemos que criar a biografia no Canva, utilizando o formato de currículo ou portfólio visual. A proposta era deixar o material mais apresentável e organizado, tanto em termos de design quanto de escrita, já que ele fará parte do portfólio final.</p>
+        <span class="modal-data">27 de Fevereiro de 2025</span>
+        <div class="modal-botoes">
+          <a href="https://www.canva.com/design/DAGfdO43NHo/tPBQKy-XDPmKiLus4X6lqg/view?utm_content=DAGfdO43NHo&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hf71e3136fe" target="_blank">Acessar projeto</a>
+          <a href="#">H4, H7, H8</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="modal5" class="modal">
+  <div class="modal-content">
+    <span class="fechar" onclick="fecharModal(5)">&times;</span>
+    <div class="modal-body">
+      <div class="modal-video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/amTI39ntKcw?si=aOJ0dCOLo-B_mqNh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>      </div>
+      <div class="modal-texto">
+        <h2>Repertório sociocultural </h2>
+        <p>Nessa atividade, nos organizamos em grupos de até 6 pessoas para criar um site no Google Sites com o título "INFORMA ENEM". O objetivo principal era alimentar o site com conteúdos e fontes confiáveis que ajudassem a expandir o conhecimento de mundo da turma, focando em temas relevantes para o ENEM e outras provas. Fomos orientados a buscar informações em sites de notícias, institutos de pesquisa, artigos científicos, revistas, livros, canais no YouTube, podcasts, entre outros.</p>
+        <span class="modal-data">27 de Março de 2025</span>
+        <div class="modal-botoes">
+          <a href="https://sites.google.com/estudante.sesisenai.org.br/informaenem3b/in%C3%ADcio" target="_blank">Acessar projeto</a>
+          <a href="#">H1, H2, H3, H4, H6, H7</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="modal6" class="modal">
+  <div class="modal-content">
+    <span class="fechar" onclick="fecharModal(6)">&times;</span>
+    <div class="modal-body">
+      <div class="modal-video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/GQbcZ63DUK0?si=hamhOJza4KrlqTnO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>      </div>
+      <div class="modal-texto">
+        <h2>Redação</h2>
+        <p>Nesta aula, realizamos a avaliação de redação pela plataforma Red1000, com foco no desenvolvimento da competência escrita no formato ENEM. O tema proposto foi:
+          “Desafios para a inclusão social por meio dos esportes no Brasil”, exigindo de nós uma abordagem crítica e argumentativa sobre a realidade social do país e o papel dos esportes como ferramenta de transformação. Na minha opinião, essa atividade foi muito importante para nos prepararmos para a redação do ENEM.</p>
+        <span class="modal-data">16 de Abril de 2025</span>
+        <div class="modal-botoes">
+          <a href="https://www.redacaonota1000.com.br/home" target="_blank">Acessar projeto</a>
+          <a href="#">H6/H8</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>

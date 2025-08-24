@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="IoT.css">
+    <link rel="stylesheet" href="natureza1.css">
+    <link rel="icon" href="imagens/giphy.gif">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>IoT</title>
+</head>
+<body>
+    
+    <div class="barra-superior">
+        <nav>
+            <h2 class="Titulo-portfolio">Portfólio</h2>
+            <ul class="Separacao-botoes">
+                <li>
+                    <div class="Home">
+                        <button class="btnTelaPrincipal nav-button" id="BoteosAcima">Início</button>  
+                    </div>
+                </li>
+                <li>
+                    <div class="Materias">
+                        <button class="btnMaterias nav-button" id="BoteosAcima">Matérias</button>
+                        <ul class="lista-materias">
+                           <li id="HumanasBotao">Humanas</li>
+                            <li id="LinguagensBotao">Linguagens</li>
+                            <li id="MatematicaBotao">Matemática</li>
+                            <li id="NaturezaBotao">Natureza</li>
+                            <li id="IotBotao">Curso Técnico</li>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                   
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="atividades">
+  <div class="card">
+    <img class="ImagensDaAtividade" src="../Imagens/Hamburgueria.jpg" alt="Natureza">
+    <div class="info-borda">
+      <span class="data">Hamburgueria</span>
+      <button onclick="abrirModal(1)">Ver mais</button>
+    </div>
+  </div>
+
+  <div class="card">
+    <img class="ImagensDaAtividade" src="../Imagens/Branding do AQUAFAST.png" alt="Natureza">
+    <div class="info-borda">
+      <span class="data">AQUAFAST</span>
+      <button onclick="abrirModal(2)">Ver mais</button>
+    </div>
+  </div>
+
+  <div class="card">
+    <img class="ImagensDaAtividade" src="../Imagens/sensores.png" alt="Natureza">
+    <div class="info-borda">
+      <span class="data">SENSORES</span>
+      <button onclick="abrirModal(3)">Ver mais</button>
+    </div>
+  </div>
+</div>
+
+<!-- Modais -->
+<div id="modal1" class="modal">
+  <div class="modal-content">
+    <span class="fechar" onclick="fecharModal(1)">&times;</span>
+    <div class="modal-body">
+      <div class="modal-video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/8u0oGLy8RaE?si=fpSWqv-bgJrmH7QO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>      </div>
+      <div class="modal-texto">
+        <h2>Hamburgueria</h2>
+        <p>O objetivo da atividade era colocar em prática o que aprendemos nas aulas do professor Gabriel Senna sobre requisitos funcionais e não funcionais. Para isso, ele propôs que criássemos uma hamburgueria fictícia, desenvolvendo os requisitos e as regras de negócio relacionadas a ela. A ideia era aplicar os conceitos de forma criativa, pensando em como funcionaria o sistema da nossa hamburgueria, desde o atendimento até o funcionamento interno.</p>
+        <ul>
+          
+        </ul>
+        <span class="modal-data">31 de Março de 2025</span>
+        <div class="modal-botoes">
+          <a href="https://docs.google.com/spreadsheets/d/1Oqyq7JsKdUouAFM9l_AucOcTs6TugZdYJMUN7TTsEhw/edit?usp=sharing" target="_blank">Acessar projeto</a>
+          <a href="#">H4, H7, H8</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="modal2" class="modal">
+  <div class="modal-content">
+    <span class="fechar" onclick="fecharModal(2)">&times;</span>
+    <div class="modal-body">
+      <div class="modal-video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/PedcioYx7vw?si=M_4wITj5W7ceOs7o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>      </div>
+      <div class="modal-texto">
+        <h2>AQUAFAST</h2>
+        <p>Esse é um projeto mais extenso e desafiador, composto por diversas etapas e com atualizações contínuas ao longo do tempo. Ele foi desenvolvido com o intuito de testar não apenas o conhecimento técnico dos alunos, mas também sua criatividade, capacidade de trabalhar em grupo, resolver problemas e propor soluções viáveis e inovadoras para questões reais enfrentadas no mercado de trabalho. Com isso, temos que fazer um arduino e APP.</p>
+        <span class="modal-data">17 de Abril de 2025</span>
+        <div class="modal-botoes">
+          <a href="https://www.canva.com/design/DAGiqWBNUxc/7pLAvMc5oqeketmoCGzxew/view?utm_content=DAGiqWBNUxc&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h3b8d0522a2" target="_blank">Acessar projeto</a>
+          <a href="#">H1, H2, H3, H4, H6, H7</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="modal3" class="modal">
+  <div class="modal-content">
+    <span class="fechar" onclick="fecharModal(3)">&times;</span>
+    <div class="modal-body">
+      <div class="modal-video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/bkq4Hb-CSfM?si=baEZ6lH0bPvHs8RD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>      </div>
+      <div class="modal-texto">
+        <h2>SENSORES</h2>
+        <p>O objetivo da aula era falar sobre os tipos de poluição e como isso afeta o meio ambiente e a rotina dos seres humanos. Na atividade, tinham algumas imagens, e cada grupo precisava escolher uma e comentar sobre qual era o tipo de poluição mostrado e como isso impacta o meio ambiente. Eu achei bem legal, porque cada grupo tinha que dar sua opinião sobre o tema e explicar com as próprias palavras.</p>
+        <span class="modal-data">12 de fevereiro de 2025</span>
+        <div class="modal-botoes">
+          <a href="https://www.canva.com/design/DAGeuiTflPs/Uh62iKGISMrd6hRgzq-IYw/view?utm_content=DAGeuiTflPs&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hf95d2bb258" target="_blank">Acessar projeto</a>
+          <a href="#">C1 - H1, H2 e H4</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

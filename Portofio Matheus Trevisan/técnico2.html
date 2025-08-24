@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Natureza.css">
+    <link rel="stylesheet" href="matemática1.css">
+    <link rel="icon" href="imagens/giphy.gif">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Natureza</title>
+</head>
+<body>
+    
+    <div class="barra-superior">
+        <nav>
+            <h2 class="Titulo-portfolio">Portfólio</h2>
+            <ul class="Separacao-botoes">
+                <li>
+                    <div class="Home">
+                        <button class="btnTelaPrincipal nav-button" id="BoteosAcima">Início</button>  
+                    </div>
+                </li>
+                <li>
+                    <div class="Materias">
+                        <button class="btnMaterias nav-button" id="BoteosAcima">Matérias</button>
+                        <ul class="lista-materias">
+                           <li id="HumanasBotao">Humanas</li>
+                            <li id="LinguagensBotao">Linguagens</li>
+                            <li id="MatematicaBotao">Matemática</li>
+                            <li id="NaturezaBotao">Natureza</li>
+                            <li id="IotBotao">Curso Técnico</li>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                   
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+<div class="atividades">
+  <div class="card">
+    <img class="ImagensDaAtividade" src="imagens/figmaa.webp" alt="Natureza">
+    <div class="info-borda">
+      <span class="data">Figma</span>
+      <button onclick="abrirModal(1)">Ver mais</button>
+    </div>
+  </div>
+
+  <div class="card">
+    <img class="ImagensDaAtividade" src="imagens/modelo-conceitual1.png" alt="Natureza">
+    <div class="info-borda">
+      <span class="data">Modelo Conceitual</span>
+      <button onclick="abrirModal(2)">Ver mais</button>
+    </div>
+  </div>
+
+ 
+
+<!-- Modais -->
+<div id="modal1" class="modal">
+  <div class="modal-content">
+    <span class="fechar" onclick="fecharModal(1)">&times;</span>
+    <div class="modal-body">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/9pnha8FEiuo?si=JWT6S58U0Qz3klZr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> </div>
+      <div class="modal-texto">
+        <h2>Figma</h2>
+        <p>AquaFast é uma empresa que busca entrar no mercado para ajudar a comunidade. A empresa irá auxiliar as pessoas a medir o nível de água e eletricidade, além de buscar formas eficientes de reduzir os custos desses recursos. A ideia é desenvolver uma maneira de transformar a água da chuva em eletricidade, e o medidor ajudará as pessoas a entenderem a quantidade de água que está sendo utilizada pelo aparelho. </p>
+        <ul>
+         </ul>
+        <span class="modal-data">23 de junho de 2025</span>
+        <div class="modal-botoes">
+          <a href="https://www.canva.com/design/DAGsJneVFXg/Lu9eu49wNlvm5J6ncAbLvw/view?utm_content=DAGsJneVFXg&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h5226a29521" target="_blank">Acessar projeto</a>
+          <a href="#">H1 a H7</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="modal2" class="modal">
+  <div class="modal-content">
+    <span class="fechar" onclick="fecharModal(2)">&times;</span>
+    <div class="modal-body">
+      <div class="modal-video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/bQsMTWU6IUs?si=kiGh4Y6GzjOizbrd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+      <div class="modal-texto">
+        <h2>PASSE</h2>
+        <p>Na aula de hoje vamos começar oficialmente o conteúdo de banco de dados. Como qualquer coisa dentro da tecnologia, precisamos começar com um planejamento e modelagem, agora, tratando dos nossos bancos de dados. <p>
+        <span class="modal-data">6 de maio de 2025</span>
+        <div class="modal-botoes">
+          <a href="https://www.canva.com/design/DAGmmZomhlY/7ADPaoMxA6tSDHOtMB2AyA/edit?utm_content=DAGmmZomhlY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank">Acessar projeto</a>
+          <a href="#">H1, H2, H3 e H4</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>

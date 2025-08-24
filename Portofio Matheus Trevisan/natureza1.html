@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Natureza.css">
+    <link rel="stylesheet" href="natureza1.css">
+    <link rel="icon" href="imagens/giphy.gif">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Natureza</title>
+</head>
+<body>
+    
+    <div class="barra-superior">
+        <nav>
+            <h2 class="Titulo-portfolio">Portfólio</h2>
+            <ul class="Separacao-botoes">
+                <li>
+                    <div class="Home">
+                        <button class="btnTelaPrincipal nav-button" id="BoteosAcima">Início</button>  
+                    </div>
+                </li>
+                <li>
+                    <div class="Materias">
+                        <button class="btnMaterias nav-button" id="BoteosAcima">Matérias</button>
+                        <ul class="lista-materias">
+                           <li id="HumanasBotao">Humanas</li>
+                            <li id="LinguagensBotao">Linguagens</li>
+                            <li id="MatematicaBotao">Matemática</li>
+                            <li id="NaturezaBotao">Natureza</li>
+                            <li id="IotBotao">Curso Técnico</li>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                  
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+ 
+
+<div class="atividades">
+  <div class="card">
+    <img class="ImagensDaAtividade" src="../Imagens/Imagem de natureza.png" alt="Natureza">
+    <div class="info-borda">
+      <span class="data">POLUIÇÃO DO AR</span>
+      <button onclick="abrirModal(1)">Ver mais</button>
+    </div>
+  </div>
+
+  <div class="card">
+    <img class="ImagensDaAtividade" src="../Imagens/Trabalho de Natureza.png" alt="Natureza">
+    <div class="info-borda">
+      <span class="data">PRODUÇÃO DE ETANOL</span>
+      <button onclick="abrirModal(2)">Ver mais</button>
+    </div>
+  </div>
+
+  <div class="card">
+    <img class="ImagensDaAtividade" src="../Imagens/Trabalho de Natureza2.png" alt="Natureza">
+    <div class="info-borda">
+      <span class="data">POLUIÇÕES</span>
+      <button onclick="abrirModal(3)">Ver mais</button>
+    </div>
+  </div>
+</div>
+
+<!-- Modais -->
+<div id="modal1" class="modal">
+  <div class="modal-content">
+    <span class="fechar" onclick="fecharModal(1)">&times;</span>
+    <div class="modal-body">
+      <div class="modal-video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/AD96veb_Qbs?si=1bVTdpnzyeeeiZi7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>      </div>
+      <div class="modal-texto">
+        <h2>Poluição do Ar</h2>
+        <p>O objetivo dessa atividade foi escolher um tipo de poluição e analisar como ela impacta tanto as indústrias brasileiras quanto o meio ambiente. Para isso, tivemos que realizar pesquisas aprofundadas, buscando entender as causas, consequências e possíveis soluções relacionadas ao tema escolhido. Depois de reunir as informações, organizamos tudo em uma apresentação para compartilhar com a turma.</p>
+        <ul>
+          
+        </ul>
+        <span class="modal-data">22 de Fevereiro de 2025</span>
+        <div class="modal-botoes">
+          <a href="https://www.canva.com/design/DAGe7FCYlNQ/mR41E1JbQvD5yAskSX485A/view?utm_content=DAGe7FCYlNQ&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=ha4fb584372" target="_blank">Acessar projeto</a>
+          <a href="#">C3 - H15 e H18</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="modal2" class="modal">
+  <div class="modal-content">
+    <span class="fechar" onclick="fecharModal(2)">&times;</span>
+    <div class="modal-body">
+      <div class="modal-video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/JvVoVfEN1nU?si=RjkitaQpvamjXBGx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>      </div>
+      <div class="modal-texto">
+        <h2>PRODUÇÃO DE ETANOL</h2>
+        <p>O objetivo da atividade era falar sobre os tipos de poluição, e cada grupo podia escolher qual queria apresentar. Eu achei bem legal, porque todo mundo participou e deu pra aprender bastante. Cada grupo explicou o que entendeu sobre o tipo de poluição que escolheu, e foi interessante ver como cada um trouxe informações diferentes. No fim, foi uma atividade bacana, porque deu pra trocar ideias, trabalhar em grupo e entender melhor o assunto.</p>
+        <span class="modal-data">10 de Março de 2025</span>
+        <div class="modal-botoes">
+          <a href="https://www.canva.com/design/DAGhpFPNVOE/ZydscuYHda639PkFfVrbbw/view?utm_content=DAGhpFPNVOE&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=heea7f952e1" target="_blank">Acessar projeto</a>
+          <a href="#">C2 H7, H9 e H10.</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="modal3" class="modal">
+  <div class="modal-content">
+    <span class="fechar" onclick="fecharModal(3)">&times;</span>
+    <div class="modal-body">
+      <div class="modal-video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/L7B8jXGjZ-s?si=mrJveIrX4lr-I8Pq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>      </div>
+      <div class="modal-texto">
+        <h2>POLUIÇÕES</h2>
+        <p>O objetivo da aula era falar sobre os tipos de poluição e como isso afeta o meio ambiente e a rotina dos seres humanos. Na atividade, tinham algumas imagens, e cada grupo precisava escolher uma e comentar sobre qual era o tipo de poluição mostrado e como isso impacta o meio ambiente. Eu achei bem legal, porque cada grupo tinha que dar sua opinião sobre o tema e explicar com as próprias palavras.</p>
+        <span class="modal-data">10 de fevereiro de 2025</span>
+        <div class="modal-botoes">
+          <a href="https://www.canva.com/design/DAGeuiTflPs/Uh62iKGISMrd6hRgzq-IYw/view?utm_content=DAGeuiTflPs&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hf95d2bb258" target="_blank">Acessar projeto</a>
+          <a href="#">C1 - H1, H2 e H4</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="amostrado">
+
+  <div class="card">
+    <img class="ImagensDaAtividade" src="../Imagens/White and Pink Simple Mind Map Brainstorm.png" alt="Natureza">
+    <div class="info-borda">
+      <span class="data">Eletrostática</span>
+      <button onclick="abrirModal(5)">Ver mais</button>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<div id="modal5" class="modal">
+<div class="modal-content">
+  <span class="fechar" onclick="fecharModal(5)">&times;</span>
+  <div class="modal-body">
+    <div class="modal-video">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/7U9G1QvLHx4?si=DQ3yJY7vY1A5mqMQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>    </div>
+    <div class="modal-texto">
+      <h2>Eletrostática</h2>
+      <p>Nesta semana, demos início ao estudo de conceitos fundamentais da elétrica, com foco especial na revisão da eletrostática, conteúdo que já havia sido trabalhado no ano anterior. A proposta da aula foi aprofundar a compreensão sobre os fenômenos elétricos e preparar o terreno para novos temas, seguindo as habilidades H29, H30 e H31.Além disso, também começamos a compreender melhor o funcionamento da corrente elétrica.</p>
+      <span class="modal-data">10 de Abril de 2025</span>
+      <div class="modal-botoes">
+        <a href="https://www.canva.com/design/DAGkKR1hjAo/jQmbnNQHZOwJCR9nXgZgIw/edit" target="_blank">Acessar projeto</a>
+        <a href="#">H29, H30 e H31.</a>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+     <script src="script.js"></script>

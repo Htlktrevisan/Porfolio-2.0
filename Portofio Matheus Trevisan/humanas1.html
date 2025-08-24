@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Natureza.css">
+    <link rel="stylesheet" href="humanas1.css">
+    <link rel="icon" href="imagens/giphy.gif">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Natureza</title>
+</head>
+<body>
+    
+    <div class="barra-superior">
+        <nav>
+            <h2 class="Titulo-portfolio">Portfólio</h2>
+            <ul class="Separacao-botoes">
+                <li>
+                    <div class="Home">
+                        <button class="btnTelaPrincipal nav-button" id="BoteosAcima">Início</button>  
+                    </div>
+                </li>
+                <li>
+                    <div class="Materias">
+                        <button class="btnMaterias nav-button" id="BoteosAcima">Matérias</button>
+                        <ul class="lista-materias">
+                           <li id="HumanasBotao">Humanas</li>
+                            <li id="LinguagensBotao">Linguagens</li>
+                            <li id="MatematicaBotao">Matemática</li>
+                            <li id="NaturezaBotao">Natureza</li>
+                            <li id="IotBotao">Curso Técnico</li>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                  
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="atividades">
+  <div class="card">
+    <img class="ImagensDaAtividade" src="../Imagens/HUMANAS - Semana 1 - Geopolítica.png" alt="Natureza">
+    <div class="info-borda">
+      <span class="data">França</span>
+      <button onclick="abrirModal(1)">Ver mais</button>
+    </div>
+  </div>
+
+  <div class="card">
+    <img class="ImagensDaAtividade" src="../Imagens/Arábia saudita.png" alt="Natureza">
+    <div class="info-borda">
+      <span class="data">Arabia Saudita</span>
+      <button onclick="abrirModal(2)">Ver mais</button>
+    </div>
+  </div>
+
+  <div class="card">
+    <img class="ImagensDaAtividade" src="../Imagens/Alemanha.png" alt="Natureza">
+    <div class="info-borda">
+      <span class="data">Alemanha</span>
+      <button onclick="abrirModal(3)">Ver mais</button>
+    </div>
+  </div>
+</div>
+
+<!-- Modais -->
+<div id="modal1" class="modal">
+  <div class="modal-content">
+    <span class="fechar" onclick="fecharModal(1)">&times;</span>
+    <div class="modal-body">
+      <div class="modal-video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/uf0IocbSnaQ?si=xukU2kGsv8QrRb5c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+      <div class="modal-texto">
+        <h2>França</h2>
+        <p>O principal objetivo da atividade foi comparar diferentes realidades entre as nações e aprofundar nosso entendimento sobre as condições geopolíticas de cada uma delas. O seminário, que será apresentado na próxima semana, servirá como um momento de troca de conhecimentos entre os colegas. Na minha opinião, essa sequência de aulas foi muito interessante porque misturou diversão com aprendizado. Os jogos foram uma forma ótima de começar o tema com leveza, e a parte da apresentação nos fez pesquisar de verdade sobre os países, indo além do básico.</p>
+        <span class="modal-data">10 de Fevereiro de 2025</span>
+        <div class="modal-botoes">
+          <a href="https://www.canva.com/design/DAGetg_B_F0/SMtkMhwKSmBSJcuPWq_58A/edit?utm_content=DAGetg_B_F0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank">Acessar projeto</a>
+          <a href="#">C2 H8 H10 H12</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="modal2" class="modal">
+  <div class="modal-content">
+    <span class="fechar" onclick="fecharModal(2)">&times;</span>
+    <div class="modal-body">
+      <div class="modal-video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/wqKMfo5HuYI?si=CQ4iw7r4M3Pnkhvk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>      </div>
+      <div class="modal-texto">
+        <h2>Arabia Sautida</h2>
+        <p>Nesta atividade, nos organizamos em grupos para pesquisar e apresentar um trabalho sobre conflitos geopolíticos e suas especificidades no contexto do Mundo Multipolar. Cada grupo ficou responsável por escolher um país e analisar sua história, suas relações estratégicas e os conflitos nos quais está envolvido. Na minha opinião, essa atividade foi muito interessante porque nos fez olhar com mais profundidade para questões que geralmente só ouvimos por cima nas notícias. </p>
+        <span class="modal-data">23 de Fevereiro de 2025</span>
+        <div class="modal-botoes">
+          <a href="https://www.canva.com/design/DAGgYk7CpkA/s63f0rO6fU8iHAEW7SAyhA/edit?utm_content=DAGgYk7CpkA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank">Acessar projeto</a>
+          <a href="#">C2 H8 H10 H12</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="modal3" class="modal">
+  <div class="modal-content">
+    <span class="fechar" onclick="fecharModal(3)">&times;</span>
+    <div class="modal-body">
+      <div class="modal-video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/QUoMNQqG05Y?si=ymwTunNBtP8qH4X2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>      </div>
+      <div class="modal-texto">
+        <h2>Alemanha</h2>
+        <p>Nesta atividade, estudamos os conflitos imperialistas do século XIX e as causas que contribuíram para a 1ª Guerra Mundial, analisando os interesses econômicos e políticos das potências europeias durante esse período. Depois, completamos uma tabela com os objetivos imperialistas e as áreas de influência dos principais países europeus. Esse exercício nos ajudou a perceber como a busca por colônias estava ligada diretamente à competição entre as potências e ao surgimento de tensões internacionais.</p>
+        <span class="modal-data">5 de Abril de 2025</span>
+        <div class="modal-botoes">
+          <a href="https://www.canva.com/design/DAGkQrav-NU/q4Fn71B2SSmBhDwopHjtiA/edit?utm_content=DAGkQrav-NU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank">Acessar projeto</a>
+          <a href="#">C2 H8 H10 H12</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>

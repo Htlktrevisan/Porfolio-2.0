@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Natureza.css">
+    <link rel="stylesheet" href="humanas1.css">
+    <link rel="icon" href="imagens/giphy.gif">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Natureza</title>
+</head>
+<body>
+    
+    <div class="barra-superior">
+        <nav>
+            <h2 class="Titulo-portfolio">Portfólio</h2>
+            <ul class="Separacao-botoes">
+                <li>
+                    <div class="Home">
+                        <button class="btnTelaPrincipal nav-button" id="BoteosAcima">Início</button>  
+                    </div>
+                </li>
+                <li>
+                    <div class="Materias">
+                        <button class="btnMaterias nav-button" id="BoteosAcima">Matérias</button>
+                        <ul class="lista-materias">
+                           <li id="HumanasBotao">Humanas</li>
+                            <li id="LinguagensBotao">Linguagens</li>
+                            <li id="MatematicaBotao">Matemática</li>
+                            <li id="NaturezaBotao">Natureza</li>
+                            <li id="IotBotao">Curso Técnico</li>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="atividades">
+  <div class="card">
+    <img class="ImagensDaAtividade" src="imagens/jornal.png" alt="Natureza">
+    <div class="info-borda">
+      <span class="data">Jornal</span>
+      <button onclick="abrirModal(1)">Ver mais</button>
+    </div>
+  </div>
+
+  <div class="card">
+    <img class="ImagensDaAtividade" src="imagens/Trabalho de Humanas.png" alt="Natureza">
+    <div class="info-borda">
+      <span class="data">Fuga das Galinhas</span>
+      <button onclick="abrirModal(2)">Ver mais</button>
+    </div>
+  </div>
+
+  <div class="card">
+    <img class="ImagensDaAtividade" src="imagens/República Oligárquica.png" alt="Natureza">
+    <div class="info-borda">
+      <span class="data">República Oligárquica</span>
+      <button onclick="abrirModal(3)">Ver mais</button>
+    </div>
+  </div>
+</div>
+
+<!-- Modais -->
+<div id="modal1" class="modal">
+  <div class="modal-content">
+    <span class="fechar" onclick="fecharModal(1)">&times;</span>
+    <div class="modal-body">
+      <div class="modal-video">
+        
+      </div>
+      <div class="modal-texto">
+        <h2>Jornal</h2>
+        <p>Bom dia, pessoal! Nesta atividade, em grupos de até quatro integrantes, vocês vão produzir um Jornal Histórico sobre “O Fim da Grande Guerra” (1918–1919), tomando como base as páginas 7–8 do Capítulo 07 da Geekie One. O objetivo é combinar informação histórica e criatividade jornalística: a produção deve apresentar uma manchete principal impactante que resuma o evento mais importante do período, uma reportagem-lide sobre o armistício (150–250 palavras), pelo menos duas reportagens curtas adicionais (por exemplo: Tratado de Versalhes; impacto social e retorno dos soldados)</p>
+        <span class="modal-data">10 de Fevereiro de 2025</span>
+        <div class="modal-botoes">
+          <a href="https://www.canva.com/design/DAGnmp3q42w/DiczHkmCBN02lN0r24wH1A/view?utm_content=DAGnmp3q42w&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h0c67810f8e" target="_blank">Acessar projeto</a>
+          <a href="#">C2 H8 H10 H12</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="modal2" class="modal">
+  <div class="modal-content">
+    <span class="fechar" onclick="fecharModal(2)">&times;</span>
+    <div class="modal-body">
+      <div class="modal-video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Gh1mgs5ly80?si=9ot6QTlRMtKPtM6g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>  </div>
+      <div class="modal-texto">
+        <h2>Fuga das Galinhas</h2>
+        <p>Bom dia, pessoal! Nesta atividade em duplas ou trios vocês deverão escolher, assistir e analisar um filme que permita refletir sobre regimes totalitários (nazifascismo, stalinismo, fascismo, entre outros). Cada grupo deve registrar o título do filme no documento anexo para evitar repetições. Aproveitem para assistir com calma e fazer anotações — pausar e anotar timestamps ajuda muito.</p>
+        <span class="modal-data">30 de junho de 2025</span>
+        <div class="modal-botoes">
+          <a href="https://www.canva.com/design/DAGsM13h4Z4/AYh8nvpCco-wkYC1rIv5Pw/view?utm_content=DAGsM13h4Z4&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hcce0715b81" target="_blank">Acessar projeto</a>
+          <a href="#">C2 H8 H10 H12</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="modal3" class="modal">
+  <div class="modal-content">
+    <span class="fechar" onclick="fecharModal(3)">&times;</span>
+    <div class="modal-body">
+      <div class="modal-video"></div>
+      <div class="modal-texto">
+        <h2>República Oligárquica</h2>
+        <p>O trabalho será um dossiê colaborativo: enquanto a maior parte dos grupos pesquisa e escreve os conteúdos, uma equipe de 3 estudantes ficará responsável pelo layout no Canva, padronizando fontes, cores e disposição das informações. Quando o layout estiver pronto, cada grupo deverá inserir seu conteúdo seguindo o modelo visual aprovado para garantir coerência e boa apresentação.</p>
+        <span class="modal-data">6 de junho de 2025</span>
+        <div class="modal-botoes">
+          <a href="https://www.canva.com/design/DAGplbgQbQ4/nPR8tmwXt2ANMNhu3s9qsw/edit?utm_content=DAGplbgQbQ4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank">Acessar projeto</a>
+          <a href="#">C2 H8 H10 H12</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>

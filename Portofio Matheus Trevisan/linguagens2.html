@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Natureza.css">
+    <link rel="stylesheet" href="natureza2.css">
+    <link rel="icon" href="imagens/giphy.gif">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Natureza</title>
+</head>
+<body>
+    
+    <div class="barra-superior">
+        <nav>
+            <h2 class="Titulo-portfolio">Portfólio</h2>
+            <ul class="Separacao-botoes">
+                <li>
+                    <div class="Home">
+                        <button class="btnTelaPrincipal nav-button" id="BoteosAcima">Início</button>  
+                    </div>
+                </li>
+                <li>
+                    <div class="Materias">
+                        <button class="btnMaterias nav-button" id="BoteosAcima">Matérias</button>
+                        <ul class="lista-materias">
+                           <li id="HumanasBotao">Humanas</li>
+                            <li id="LinguagensBotao">Linguagens</li>
+                            <li id="MatematicaBotao">Matemática</li>
+                            <li id="NaturezaBotao">Natureza</li>
+                            <li id="IotBotao">Curso Técnico</li>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                   
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+ <div class="atividades">
+  <div class="card">
+    <img class="ImagensDaAtividade" src="imagens/google_.png" alt="Natureza">
+    <div class="info-borda">
+      <span class="data">Redação</span>
+      <button onclick="abrirModal(1)">Ver mais</button>
+    </div>
+  </div>
+
+  <div class="card">
+    <img class="ImagensDaAtividade" src="imagens/Revista.png" alt="Natureza">
+    <div class="info-borda">
+      <span class="data">Revista Literária </span>
+      <button onclick="abrirModal(2)">Ver mais</button>
+    </div>
+  </div>
+
+  <div class="card">
+    <img class="ImagensDaAtividade" src="imagens/Portfolio.png" alt="Natureza">
+    <div class="info-borda">
+      <span class="data">Que tipo de arte você consome</span>
+      <button onclick="abrirModal(3)">Ver mais</button>
+    </div>
+  </div>
+</div>
+
+<!-- Modais -->
+<div id="modal1" class="modal">
+  <div class="modal-content">
+    <span class="fechar" onclick="fecharModal(1)">&times;</span>
+    <div class="modal-body">
+      <div class="modal-video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/fFZ5BWjG1Iw?si=1ZP9REPtC6KmuaEr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>   </div>
+      <div class="modal-texto">
+        <h2>REDAÇÃO</h2>
+        <p>Nesta aula, realizamos a avaliação de redação pela plataforma Red1000, com foco no desenvolvimento da competência escrita no formato ENEM. O tema proposto foi:
+          “Desafios para a inclusão social por meio dos esportes no Brasil”, exigindo de nós uma abordagem crítica e argumentativa sobre a realidade social do país e o papel dos esportes como ferramenta de transformação. Na minha opinião, essa atividade foi muito importante para nos prepararmos para a redação do ENEM.</p>
+        <ul>
+        </ul>
+        <span class="modal-data">12 de agosto de 2025</span>
+        <div class="modal-botoes">
+          <a href="https://app.redacaonline.com.br/sesi-sc/aluno/login" target="_blank">Acessar projeto</a>
+          <a href="#">C4 - H23</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="modal2" class="modal">
+  <div class="modal-content">
+    <span class="fechar" onclick="fecharModal(2)">&times;</span>
+    <div class="modal-body">
+      <div class="modal-video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/95As_hEx62g?si=7YrAhYYDIx3dhpKx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>      </div>
+      <div class="modal-texto">
+        <h2>Revista Literária</h2>
+        <p>O objetivo da atividade foi reunir, em uma única revista literária, os dois trabalhos realizados durante o primeiro trimestre a partir das obras Memórias Póstumas de Brás Cubas, de Machado de Assis, e Parque Industrial, de Patrícia Galvão (Pagu). A proposta era criar uma capa criativa e significativa, além de organizar os conteúdos de forma clara, visualmente atrativa e coerente, incluindo análises, interpretações e produções relacionadas a cada uma das obras.</p>
+        <span class="modal-data">7 de Abril de 2025</span>
+        <div class="modal-botoes">
+          <a href="https://sites.google.com/estudante.sesisenai.org.br/laboratorio-literario1/p%C3%A1gina-inicial" target="_blank">Acessar projeto</a>
+          <a href="#">H4/H14/H17. </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="modal3" class="modal">
+  <div class="modal-content">
+    <span class="fechar" onclick="fecharModal(3)">&times;</span>
+    <div class="modal-body">
+      <div class="modal-video">
+       <iframe width="560" height="315" src="https://www.youtube.com/embed/T766Av9AUP8?si=3Huvjju9TLYYfFBn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>  </div>
+      <div class="modal-texto">
+        <h2>Que tipo de arte você consome</h2>
+        <p>Nessa parte, você precisa escrever sobre três coisas:
+            Seu artista favorito: fale sobre a sua biografia, obras mais famosas, como você conheceu ele e porque ele é seu favorito;
+            Seu filme favorito: fale sobre a história do filme, o ano em que foi lançado, o diretor, os artistas, como você conheceu ele, porque ele é seu favorito, que assuntos relevantes o filme aborda.
+            Sua música favorita: fale sobre o artista, quem escreveu, os instrumentos utilizados, o ano em que foi lançada, sua parte favorita da letra, como você conheceu a música, como ela faz você se sentir, no que ou em quem ela te faz pensar.</span>
+        <div class="modal-botoes">
+          <a href="https://www.canva.com/design/DAGeuiTflPs/Uh62iKGISMrd6hRgzq-IYw/view?utm_content=DAGeuiTflPs&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hf95d2bb258" target="_blank">Acessar projeto</a>
+          <a href="#">H11 e H25</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<script src="script.js"></script>

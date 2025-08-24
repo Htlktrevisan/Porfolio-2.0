@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="imagens/giphy.gif">
+    <title>Portfólio</title>
+</head>
+<body>
+
+    <div class="barra-superior">
+        <nav>
+            <h2 class="Titulo-portfolio">Portfólio</h2>
+            <ul class="Separacao-botoes">
+                <li>
+                    <div class="Home">
+                        <button class="btnTelaPrincipal nav-button" id="BoteosAcima">Início</button>  
+                    </div>
+                </li>
+                <li>
+                    <div class="Materias">
+                        <button class="btnMaterias nav-button" id="BoteosAcima">Matérias</button>
+                        <ul class="lista-materias">
+                            <li id="HumanasBotao">Humanas</li>
+                            <li id="LinguagensBotao">Linguagens</li>
+                            <li id="MatematicaBotao">Matemática</li>
+                            <li id="NaturezaBotao">Natureza</li>
+                            <li id="IotBotao">Curso Técnico</li>
+                                   
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <button class="nav-button" data-scroll-to="area-profissional">Experiência Profissional</button>
+                </li>
+                <li>
+                    <button class="nav-button" data-scroll-to="portfolios-antigos">Portfólios</button>
+                </li>
+                 <li>
+                    <button class="nav-button" data-scroll-to="certificados">Projetos</button>
+                </li>
+                 <li>
+                    <a class="nav-button" href="../Imagens/Curriculo (1).pdf" download>Currículo</a>   
+                 </li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="gifTelaPrincipal">
+        <img src="imagens/Biografia.png" alt="">
+        <div class="TextoSobrepondoGif">Bem Vindo ao meu Portfólio <br> <br> Matheus Trevisan</div>
+    </div>
+
+    <div class="page-section fade-in-section">
+        <div class="section-title">
+            <h2>Bem Vindo</h2>
+        </div>
+        <div class="AlinhamentoSobreMim">
+            <div class="imgMinha">
+                <img  src="imagens/matheus trevisan.jpeg" class="imgMinhaSobre" alt="">
+            </div>
+            <div class="txtSobreMim">
+                <div class="euuu">
+                    <p class="matheus">Sobre Mim</p>
+                </div>
+                <h3>Meu nome é Matheus Trevisan Ribeiro, tenho 17 anos e estou no meu último ano do ensino médio. Nasci em Florianópolis, tenho 2 irmãos e 1 irmã. Gosto de jogar videogame, passar tempo na praia ou meditar. Depois de concluir o ensino médio, pretendo cursar Psicologia e entrar em uma faculdade. Quem sabe, um dia, morar fora do país. Meu sonho é conseguir ajudar o máximo de pessoas possível e me formar no ensino médio para conseguir realizar o meu sonho de ser psicólogo.
+                </h3>
+                <div class="botoes-sobre-mim">
+                    <a href="https://github.com/Htlktrevisan" target="_blank" class="btn-sobre btn-github">
+                        <img src="imagens/GitLogo.png" alt="GitHub Logo">
+                    </a>
+                    <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=CllgCJqWgKMrZcKZrDWRqVrpvTQKqwwwZgLqPFpqbVzqDBNslQldDdSqSCjTmPxbcJqjCKTQGTL" target="_blank" class="btn-sobre btn-github">
+                        <img src="imagens/88e14cc7e7fcbb0e0e09de26cec86c61-removebg-preview.png" alt="GitHub Logo">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="page-section fade-in-section" id="area-profissional">
+        <div class="section-title">
+            <h2>Experiência Profissional</h2>
+        </div>
+        <div class="area-profissional-wrapper">
+            <div class="area-profissional-main">
+                <div class="profissional-menu">
+                    <span class="profissional-btn active" data-target="tab-sobre">Sobre</span>
+                    <span class="profissional-btn" data-target="tab-atuacao">Atuação</span>
+                    <span class="profissional-btn" data-target="tab-skills">Skills</span>
+                </div>
+                <div class="profissional-conteudo-wrapper">
+                    <div id="tab-sobre" class="profissional-conteudo">
+                        <p>Sou Matheus Trevisan Ribeiro, 17 anos, estudante do 3º ano do Ensino Médio na Escola SESI SENAI. Já atuei como assistente de cadastro de produtos na empresa 3JP, realizando cadastros em plataformas online, revisão de textos e organização de informações. Sou dedicado, proativo e busco uma oportunidade para crescer profissionalmente, agregar valor à empresa e evoluir junto com a equipe.</p>
+                    </div>
+                    <div id="tab-atuacao" class="profissional-conteudo" style="display: none;">
+                        <p>Formação: <br><br> (Completo ou em andamento): <br> - Ensino Fundamental I (2014-2018) <br> - Fundamental II(2019-2022) <br> - Cursando Ensino Médio <br> - Curso técnico em andamento  </p>
+                    </div>
+                    <div id="tab-skills" class="profissional-conteudo" style="display: none;">
+                        <div class="skills-grid">
+                            <div class="skill-item"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="JavaScript"></div>
+                            <div class="skill-item"><img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="HTML5"></div>
+                            <div class="skill-item"><img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="CSS3"></div>
+                            <div class="skill-item"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="React"></div>
+                            <div class="skill-item"><img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg" alt="Bootstrap"></div>
+                            <div class="skill-item"><img src="https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg" alt="PostgreSQL"></div>
+                            <div class="skill-item"><img src="https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg" alt="Figma"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="page-section fade-in-section" id="portfolios-antigos">
+        <div class="section-title">
+            <h2>Portfólios anteriores</h2>
+        </div>
+        <div class="AlinhamentoCards">
+            <a href="https://sites.google.com/estudante.sesisenai.org.br/trevisa-portfolio/in%C3%ADcio" target="_blank" class="card-item">
+                <img src="imagens/2023.png" alt="Portfólio de 2023">
+                <div class="card-overlay">
+                    <h3>Portfólio 2023</h3>
+                    <p>Veja mais</p>
+                </div>
+            </a>
+            <a href="https://sites.google.com/estudante.sesisenai.org.br/matheus-trevisan/in%C3%ADcio" target="_blank" class="card-item">
+                <img src="imagens/2024.png" alt="Portfólio de 2024">
+                <div class="card-overlay">
+                    <h3>Portfólio 2024</h3>
+                    <p>Veja mais</p>
+                </div>
+            </a>
+        </div>
+    </div>
+
+      <div class="page-section fade-in-section" id="certificados">
+        <div class="section-title">
+            <h2>Projetos</h2>
+        </div>
+        <div class="AlinhamentoCards">
+            <a href="https://github.com/Htlktrevisan/Game-Bomb2" download class="card-item certificado" target="_blank">
+                <img src="imagens/Game Bomb.png" alt="Certificado de Artes Visuais">
+                <div class="card-overlay">
+                    <h3>Game Bomb</h3>
+                    <p>Veja Mais</p>
+                </div>
+            </a>
+            <a href="https://www.figma.com/proto/PgSEcE3aMQIchecpL36cdJ/AquaFast-wireframe?node-id=393-323&t=IsuDfLsrRqe34BKJ-1" download class="card-item certificado" target="_blank">
+                <img src="imagens/Branding do AQUAFAST.png" alt="Certificado de JavaScript">
+                <div class="card-overlay">
+                    <h3>AquaFast</h3>
+                    <p>Veja Mais</p>
+                </div>
+            </a>
+            <a href="" download class="card-item certificado">
+                <img src="imagens/TaskMaster (2).png" alt="Certificado de Python">
+                <div class="card-overlay">
+                    <h3>TaskMaster</h3>
+                    <p>Veja Mais</p>
+                </div>
+            </a>
+        </div>
+    </div>
+
+
+    <div class="page-section fade-in-section" id="ppe-section">
+        <div class="section-title">
+            <h2>PPE</h2>
+        </div>
+        <div class="PPE">Nenhuma Atividade</div>
+    </div>
+    
+  
+    <script src="script.js"></script>
+</body>
+</html>
